@@ -1,0 +1,261 @@
+body {
+    margin: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-bottom: 0px;
+
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2%;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height:90lvh
+
+}
+.last-icon{
+    height: 30px; width: 30px; padding-left: 5em;
+}
+.call,
+.whatsapp,
+.telegram {
+    display: inline-block;
+    width: 30%;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 0.2em;
+}
+
+.call {
+    background-color: yellow;
+}
+
+.whatsapp {
+    background-color: green;
+    color: white;
+}
+
+.telegram {
+    background-color: grey;
+}
+@media (max-width: 668px) {
+    .call,
+    .whatsapp,
+    .telegram {
+        width: 25%; /* Full width for smaller screens */
+        margin-bottom: 1em; /* Add some space between icons */
+    }
+    .last-icon{
+        height: 15px; width: 15px; padding-left: 3em;
+    }
+ 
+}
+
+
+
+.box {
+    box-sizing: border-box;
+}
+
+.box1 {
+    width: 30%;
+    margin-left: 0px;
+  
+
+}
+.paragraph{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+    color: rgba(79, 79, 79, 0.834);
+    
+}
+
+.box2 {
+    width: 50%;
+
+}
+
+.box3 {
+    width: 20%;
+}
+
+.column {
+    box-sizing: border-box;
+    padding-left: 2em;
+}
+
+.column1 {
+    height: 30%;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+}
+
+.column2 {
+    height: 57%;
+    border-right: 1px solid #ccc;
+
+}
+
+.column3 {
+    height: 10%;
+    top: 84% ;
+    position: absolute;
+    width: 48%;
+
+
+  
+
+}
+
+.image2 {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.awesome-container {
+    position: relative;
+}
+
+.awesomeImage {
+    width: 18em;
+    position: absolute;
+    top: 8em;
+}
+.list-container{
+    position: absolute;
+    margin-left: 24em;
+    top: 20em;
+
+
+}
+.arrowImage {
+    height: 1em;
+    width: 1em;
+}
+.div-paragraph1{
+    padding: 80px;
+}
+.div-paragraph2{
+    padding-left: 80px;
+
+}
+@media (max-width: 1412px) {
+    .list-container{
+        position: absolute;
+        margin-left: 10em;
+        top: 20em;
+    
+    
+    }
+    .awesomeImage {
+        width: 8em;
+        position: absolute;
+        top: 8em;
+    }
+}
+
+@media (max-width: 900px) {
+    .list-container{
+        position: absolute;
+        margin-left: 0em;
+        top: 75.5%;
+    
+    
+    }
+    .last-icon{
+        height: 2em; width: 2em; padding-left: 1.5em;
+    }
+    .call,
+    .whatsapp,
+    .telegram {
+        display: inline-block;
+        width: 28%;
+        border: none;
+        border-radius: 0%;
+        padding: 0.2sem;
+    }
+    .div-paragraph1 {
+        position: absolute;
+        height: 10%;
+        width: 30%;
+        top:54%;
+
+    }
+    .div-paragraph2 {
+        position: absolute;
+
+        height: 10%;
+        width: 30%;
+        top:63.5%;
+        right: 6%;
+    }
+    .box {
+        width: 100%;
+    }
+    .awesome-container {
+        position: relative;
+        top:-8em;
+
+    }
+    .awesomeImage {
+        width: 5em;
+        top: 1em;
+        right: 1em;
+    }
+
+    .box1 {
+        height: 22em;
+    }
+
+    .box2 {
+        height: auto;
+    }
+
+    .box3 {
+        height: 20%; 
+        margin-left: -2em;
+    }
+
+    .column {
+        padding: 0px;
+    }
+
+    .column1 {
+        height: auto;
+        padding: 12px;
+    }
+
+    .column2 {
+        height: auto;
+    }
+
+    .column3 {
+        position: absolute;
+        top:94% ;
+        width: 100%;
+    }
+
+    .image2 {
+        height: 1em;
+        width: 1em;
+    }
+}
+
+.image1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
+    border: 2px solid transparent;
+}
+
+.icons {
+    margin: 10px;
+    padding: 4px;
+    border-radius: 20%;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
